@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ContentGuard AI</title>
+  <style>
+    body { width: 340px; margin:0; padding:20px; font-family:system-ui; background:#0f1419; color:#e8edf2; }
+    h1 { text-align:center; margin-bottom:20px; }
+    label { display:block; margin:18px 0 8px; font-size:15px; }
+    input[type=range] { width:100%; }
+    button { width:100%; padding:14px; background:#7ee0c3; color:#111; border:none; border-radius:12px; font-weight:bold; margin-top:25px; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <h1>🛡️ ContentGuard </h1>
+  
+  <label><input type="checkbox" id="enabled"> Расширение включено</label>
+  
+  <label>Порог текста: <span id="textVal">75</span>% 
+    <input type="range" id="textThreshold" min="50" max="95" value="75">
+  </label>
+
+  <button id="save"> Сохранить и применить</button>
+  <div style="margin-top:20px; text-align:center; font-size:13px; color:#a7b4c2;">
+    On-device 
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
