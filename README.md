@@ -55,6 +55,7 @@ contentguard/
 ### Требования
 
 - [Node.js](https://nodejs.org/) (v18+)
+- [Модель]([https://nodejs.org/](https://huggingface.co/Lopulex/toxic-bert-russian-onnx-quantized))
 - npm
 
 ### Сборка
